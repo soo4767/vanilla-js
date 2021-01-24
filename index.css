@@ -66,9 +66,17 @@ h4 {
     opacity: 1;
   }
 }
+.js-form input {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
 
 .js-form,
 .js-toDoForm input {
+  margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid white;
   background: none;
@@ -77,7 +85,7 @@ h4 {
   outline: none;
 }
 
-.js-form,
+.js-form input::placeholder,
 .js-toDoForm input::placeholder {
   color: white;
   font-size: 20px;
